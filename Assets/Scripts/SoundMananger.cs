@@ -22,7 +22,7 @@ public class SoundManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         _musicSource.loop = true;
-        _musicSource.playOnAwake = true;
+        _musicSource.playOnAwake = false;
 
         _sfxSource.loop = false;
         _sfxSource.playOnAwake = false;
